@@ -23,4 +23,6 @@ public class EmployeeGlobalExceptionHandler {
 
         return new ResponseEntity<>(data, HttpStatus.BAD_REQUEST);
     }
+
+
 }
